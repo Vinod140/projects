@@ -1,0 +1,26 @@
+# 🧠 Custom Object Detection System
+
+A complete custom object detection system that allows you to detect user-defined objects in real-time. This project integrates data labeling (via Label Studio), model training (via YOLO), real-time detection (via OpenCV), and a user interface (via Tkinter).
+
+## 🛠️ Built With
+
+- **Label Studio** – For image annotation and labeling
+- **YOLOv8** – For training object detection models
+- **OpenCV** – For handling camera input and image processing
+- **Tkinter** – For building a simple GUI to run detection
+- **Python** – Glue language for everything
+
+---
+
+## 🔁 Workflow
+
+1. **Label your custom dataset** using [Label Studio].
+2. **Convert annotations** to YOLO format.
+3. **Train your YOLO model** (e.g. using `ultralytics` package).
+4. **Run detection** using your trained model in real-time via webcam.
+5. **Control the system** through a Tkinter-based GUI.
+
+---
+
+
+
