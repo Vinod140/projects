@@ -1,0 +1,28 @@
+# 🏘️ Area Price Prediction Web App
+
+A machine learning-powered web application that predicts the price of real estate or land area based on user inputs.
+The app is built using **Django** for the backend, **Scikit-learn** for the ML model, and **SQL** for data storage.
+
+---
+
+## 🧰 Technologies Used
+
+- **Python**
+- **Django** – Web framework
+- **Scikit-learn** – Model training and prediction
+- **SQLite / MySQL** – Database for storing records
+- **HTML, CSS, Bootstrap** – Front-end (templating)
+- **Pandas, NumPy** – Data preprocessing
+
+---
+
+## 🌐 Features
+
+- 📥 User input form for property details
+- 🤖 Machine learning model to predict area price
+- 🗂️ Stores prediction history in SQL database
+- 📊 Admin panel to view, update, delete data
+- 🖥️ Responsive UI using Bootstrap
+
+---
+
