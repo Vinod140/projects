@@ -1,0 +1,22 @@
+path: c:/Users/pankaj/Desktop/major/new
+train: images/train  
+val: images/valid  
+ 
+
+names:
+  0: "Board"
+  1: "Book"
+  2: "Chair"
+  3: "Duster"
+  4: "Fan"
+  5: "Glass"
+  6: "Jug"
+  7: "laptop"
+  8: "Light"
+  9: "Pen"
+  10: "Person"
+  11: "Plate"
+  12: "Spoon"
+  13: "Switch-board"
+  14: "window"
+  15: "Table"
