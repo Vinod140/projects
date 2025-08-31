@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+<head>
+    <title>
+    {% block title %}
+        Home
+    {% endblock %}
+</title>
+</head>
+<body>
+  
+    
+
+    {% block content %}
+        <div style="padding: 20px;">
+            <h2>Enter Your Details</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Predict Price</button>
+            </form>
+    
+            {% if predicted_price is not None %}
+                <h3>Predicted Price: ₹{{ predicted_price }}</h3>
+                <h4>User Information:</h4>
+                <ul>
+                    <li><strong>Name:</strong> {{ user_data.full_name }}</li>
+                    <li><strong>Address:</strong> {{ user_data.address }}</li>
+                    <li><strong>Mobile:</strong> {{ user_data.mobile }}</li>
+                    <li><strong>Age:</strong> {{ user_data.age }}</li>
+                </ul>
+            {% endif %}
+        </div>
+    {% endblock %}
+    
+
+</body>
