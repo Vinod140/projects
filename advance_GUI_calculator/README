@@ -1,1 +1,58 @@
 
+🧮 Advanced GUI Calculator
+
+An Advanced Calculator Application built using Python Tkinter, featuring both scientific calculations and unit conversion tools.
+It provides a clean GUI with buttons for basic arithmetic, advanced math functions, and a dedicated tools section for conversions.
+
+🚀 Features
+🔢 Calculator Functions
+
+Basic Operations – Addition, Subtraction, Multiplication, Division
+
+Scientific Functions – Square, Square Root, Power, Logarithm, Trigonometry (sin, cos, tan, etc.)
+
+Clear & Backspace – Modify or reset input easily
+
+Keyboard Support – Input using both mouse and keyboard
+
+Error Handling – Prevents crashes on invalid input (e.g., divide by zero)
+
+🛠️ Advanced Tools Section
+
+Time Conversion – Hours ↔ Minutes ↔ Seconds
+
+Volume Conversion – Liters ↔ Milliliters ↔ Cubic Meters, etc.
+
+Speed Conversion – Km/h ↔ m/s ↔ mph
+
+Area Conversion – Sq.m ↔ Sq.ft ↔ Acres, etc.
+
+Temperature Conversion – Celsius ↔ Fahrenheit ↔ Kelvin
+
+🛠️ Tech Stack
+
+Programming Language: Python
+
+GUI Framework: Tkinter
+
+Libraries Used:
+
+math – For advanced mathematical operations
+
+tkinter – For GUI design
+
+⚙️ Workflow
+
+User Input – Enter numbers via calculator buttons or type manually.
+
+Computation – Calculator uses Python’s math library for results.
+
+Unit Conversion (Tools Section)
+
+User selects a tool (Time, Volume, Speed, Area, Temperature).
+
+Enters the value in one unit.
+
+App instantly converts it into other related units.
+
+Output Display – Results shown in GUI output window.
