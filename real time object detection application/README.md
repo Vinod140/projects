@@ -1,3 +1,5 @@
+unfortunately model is not available... 
+
 Real-Time Object Detection Application
 
 A Real-Time Object Detection Application built using YOLO, OpenCV, Tkinter, Pygame, and Label Studio. The application can detect and classify objects from PC webcam, mobile IP camera, video files, or images in real time with high accuracy.
